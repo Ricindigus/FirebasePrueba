@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SIGSEL"
+            android:gravity="center"
+            android:textSize="45sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <EditText
+            android:id="@+id/login_edt_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="USUARIO"
+            android:inputType="text"
+            android:layout_marginBottom="20dp"/>
+        <EditText
+            android:id="@+id/login_edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CONTRASEÑA"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/login_btn_ingresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="INGRESAR"/>
+    </LinearLayout>
+</LinearLayout>

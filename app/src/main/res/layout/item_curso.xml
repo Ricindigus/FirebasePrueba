@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="1dp"
+    android:id="@+id/item_curso_cvCurso">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/item_curso_txtEap"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="ss"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:id="@+id/item_curso_txtCiclo"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="1"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:id="@+id/item_curso_txtNombre"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:text="algoritmica 1"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
